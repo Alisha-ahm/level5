@@ -11,7 +11,7 @@ app.get('/health', (req, res) => {
 })
 
 app.get('/', (req, res) => {
-    return res.status(200).json({ message: "Hello Alisha v2" })
+    return res.status(200).json({ message: "Hello Alisha v3" })
 })
 
 app.listen(ports, () => {
